@@ -12,14 +12,12 @@
       const vm = new Vue({
         data() {
           return {
-            name: this.getName,
-            age: 18,
-            getName: function () {
-              return 'spring'
-            }
+            name: 'spring',
+            age: 18
           };
         }
       });
+      vm.data.name = 'json'
     </script>
   </body>
 </html>

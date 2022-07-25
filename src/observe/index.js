@@ -17,10 +17,12 @@ export function defineReactive(target, key, value) {
   // Object.defineProperty的作用是在对象上重新定义一个属性，或者修改已存在的属性 
   Object.defineProperty(target, key, {
     get: function () {
+      console.log('用户取值了')
       return value;
     },
     set: function (newValue) {
       if (newValue === value) return
+      console.log('用户设置值了')
       value = newValue;
     },
   });
