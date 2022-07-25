@@ -1,0 +1,17 @@
+{
+  "name": "vue2-origin-exercises",
+  "version": "1.0.0",
+  "description": "vue源码练习",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "rollup": "^2.77.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
